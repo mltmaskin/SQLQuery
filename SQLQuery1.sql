@@ -1,0 +1,12 @@
+--MIS442 
+--SELECT * FROM [Order Details];
+--SELECT * FROM Employees WHERE City = 'London' or Country = 'USA';
+--SELECT * FROM Employees WHERE City = 'Seattle' and Region= 'WA';
+--SELECT FirstName + ' ' + LastName + Convert (nvarchar, HireDate) as HireColumn FROM Employees ;
+--SELECT FirstName + ' ' + Cast(HireDate as nvarchar) as HireColumn FROM Employees;
+--SELECT * FROM Employees WHERE City in ('London' , 'Tacoma');
+--SELECT* FROM Employees WHERE City not in ('Kirkland', 'Relmond');
+--SELECT * FROM Customers c WHERE c.ContactName like 'A%';
+--SELECT * FROM Customers WHERE Customers.ContactName like '%AN%';
+--SELECT * FROM Customers c WHERE c.ContactName like '%A';
+--SELECT * FROM Customers c WHERE c.ContactName like 'A_%';
